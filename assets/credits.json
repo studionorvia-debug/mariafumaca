@@ -1,0 +1,48 @@
+[
+  {
+    "file": "assets/trem-miguel-pereira.jpg",
+    "media": "image",
+    "ref": "commons:154005624",
+    "title": "Trem Miguel Pereira",
+    "creator": "Daddo Moreira / Trilhos do Rio",
+    "creatorUrl": null,
+    "date": "2023-12-01",
+    "license": "CC BY-SA 4.0",
+    "licenseCode": "by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "creditRequired": true,
+    "page": "https://commons.wikimedia.org/wiki/File:Trem_Miguel_Pereira.jpg",
+    "via": "Wikimedia Commons",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Trem_Miguel_Pereira.jpg",
+    "width": 1280,
+    "height": 720,
+    "bytes": 249157,
+    "credit": "\"Trem Miguel Pereira\" by Daddo Moreira / Trilhos do Rio, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": [
+      "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+    ],
+    "saved": "2026-11-03T23:37:18.592Z"
+  },
+  {
+    "file": "assets/miguel-pereira.jpg",
+    "media": "image",
+    "ref": "openverse:cdb1b844-f2d9-42a6-bb76-3ee386be91cd",
+    "title": "Miguel pereira",
+    "creator": "Lagape",
+    "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Lagape&action=edit&redlink=1",
+    "date": null,
+    "license": "CC BY 3.0",
+    "licenseCode": "by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "creditRequired": true,
+    "page": "https://commons.wikimedia.org/w/index.php?curid=9963317",
+    "via": "Wikimedia Commons",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Miguel_pereira.JPG/1920px-Miguel_pereira.JPG",
+    "width": 1920,
+    "height": 1440,
+    "bytes": 914005,
+    "credit": "\"Miguel pereira\" by Lagape, CC BY 3.0, via Wikimedia Commons",
+    "notes": [],
+    "saved": "2026-11-03T23:37:26.420Z"
+  }
+]

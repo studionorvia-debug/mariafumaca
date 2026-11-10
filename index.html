@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maria Fumaça Restaurante · Miguel Pereira, RJ — almoço self-service e jantar à la carte</title>
+  <meta name="description" content="Restaurante tradicional em Miguel Pereira, RJ, desde 2007, ao lado do Calçadão do Viô. Almoço self-service todos os dias das 11h30 às 15h e jantar à la carte de terça a domingo das 17h às 23h. Nota 4,3 no Google.">
+  <meta name="theme-color" content="#630407">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="Maria Fumaça Restaurante · Miguel Pereira, RJ">
+  <meta property="og:description" content="Tradição e qualidade em cada sabor. Almoço self-service e jantar à la carte em Miguel Pereira, desde 2007.">
+  <meta property="og:image" content="assets/salao.jpg">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="geo.region" content="BR-RJ">
+  <meta name="geo.placename" content="Miguel Pereira">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/salao.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Maria Fumaça Restaurante",
+    "logo": "assets/logo.png",
+    "image": ["assets/salao.jpg", "assets/fachada.jpg", "assets/buffet.jpg"],
+    "foundingDate": "2007",
+    "servesCuisine": ["Brasileira", "Self-service", "À la carte"],
+    "priceRange": "$$",
+    "telephone": "+55 24 98140-8080",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Maria José, 36 — Vila Margarida",
+      "addressLocality": "Miguel Pereira",
+      "addressRegion": "RJ",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "11:30", "closes": "15:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "17:00", "closes": "23:00" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.3", "bestRating": "5", "reviewCount": "2300" },
+    "sameAs": ["https://www.instagram.com/mariafumacarestaurantemp/"],
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=Maria+Fuma%C3%A7a+Restaurante+Rua+Maria+Jos%C3%A9+36+Miguel+Pereira+RJ"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- traçado do texto em anel, reaproveitado pelos selos -->
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+    <defs>
+      <path id="ring" d="M 200,200 m -168,0 a 168,168 0 1,1 336,0 a 168,168 0 1,1 -336,0"/>
+    </defs>
+  </svg>
+
+  <header class="bar" id="topo">
+    <div class="bar-in">
+      <a class="logo" href="#inicio" aria-label="Maria Fumaça Restaurante, início">
+        <img src="assets/logo.png" width="400" height="400" alt="">
+        <span class="logo-word">Maria Fumaça</span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <ul id="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li class="nav-reserve"><a href="https://wa.me/5524981408080?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa." target="_blank" rel="noopener">Reservar mesa</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-cream bar-cta" href="https://wa.me/5524981408080?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">Faça seu pedido</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO: o selo da casa -->
+    <section class="hero" id="inicio" aria-labelledby="h-hero">
+      <div class="hero-copy">
+        <h1 id="h-hero" class="display" data-split>Tradição e qualidade em cada sabor.</h1>
+        <p class="lead hero-sub" data-rise>Uma experiência gastronômica especial, com sabores que conquistam e um ambiente preparado para receber você.</p>
+        <div class="actions" data-rise>
+          <a class="btn btn-cream" href="#cardapio">Conheça nosso cardápio</a>
+          <a class="btn btn-outline" href="#contato">Fale conosco</a>
+        </div>
+
+        <!-- O "bilhete do dia": mostra se a casa está aberta agora -->
+        <aside class="ticket" aria-label="Horário de hoje" data-rise>
+          <div class="ticket-main">
+            <p class="ticket-day"><span data-today>Hoje</span></p>
+            <p class="ticket-status" data-status>Almoço todos os dias · Jantar de terça a domingo</p>
+            <p class="ticket-next" data-next>Rua Maria José, 36 · Miguel Pereira</p>
+          </div>
+          <div class="ticket-stub">
+            <dl>
+              <div><dt>Almoço</dt><dd>11h30–15h</dd></div>
+              <div><dt>Jantar</dt><dd>17h–23h</dd></div>
+            </dl>
+          </div>
+        </aside>
+      </div>
+
+      <figure class="seal" data-seal>
+        <svg class="seal-rings" viewBox="0 0 400 400" aria-hidden="true">
+          <circle cx="200" cy="200" r="198" class="ring-line"/>
+          <circle cx="200" cy="200" r="146" class="ring-line"/>
+          <g class="seal-text" data-spin>
+            <text><textPath href="#ring" startOffset="0" textLength="1040" lengthAdjust="spacing">RESTAURANTE MARIA FUMAÇA · DESDE 2007 · MIGUEL PEREIRA · RJ ·</textPath></text>
+          </g>
+        </svg>
+        <div class="seal-photo">
+          <img src="assets/salao.jpg" width="828" height="906" alt="Salão do Maria Fumaça com mesas de madeira, cadeiras de assento bordô e luminárias acesas" fetchpriority="high" data-hero-img>
+        </div>
+      </figure>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about" id="sobre" aria-labelledby="h-sobre">
+      <figure class="about-pic" data-rise>
+        <img src="assets/fachada.jpg" width="828" height="1013" loading="lazy" alt="Fachada do Maria Fumaça Restaurante, com a placa de madeira da casa e clientes nas mesas da calçada">
+        <figcaption>A fachada na Rua Maria José, 36</figcaption>
+      </figure>
+      <div class="about-copy">
+        <h2 id="h-sobre" class="head" data-split>Uma tradição que merece ser apreciada.</h2>
+        <article class="letter" data-rise>
+          <p>Desde 2007, o Maria Fumaça recebe Miguel Pereira à mesa. O nome vem do trem que fez a cidade crescer, subindo a serra com famílias em busca do ar puro, e a nossa cozinha segue o mesmo compasso: sem pressa, no tempo certo de cada preparo.</p>
+          <p>No almoço, um self-service farto e caseiro, renovado ao longo de todo o serviço. À noite o salão fica mais calmo e a cozinha prepara pratos à la carte, servidos à mesa.</p>
+          <p>Ao lado do Calçadão do Viô, recebemos moradores, famílias e quem está de passagem pela serra com o mesmo cuidado: <mark>mesa posta, atendimento atento</mark> e a sensação de estar em casa.</p>
+          <p class="sign">Equipe Maria Fumaça<span>Rua Maria José, 36 · Vila Margarida</span></p>
+          <div class="tear">
+            <p>Reservas e pedidos pelo WhatsApp <a href="tel:+5524981408080">(24) 98140-8080</a></p>
+            <a class="btn btn-solid" href="https://wa.me/5524981408080?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20reserva." target="_blank" rel="noopener">Reservar uma mesa</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CARDÁPIO -->
+    <section class="menu" id="cardapio" aria-labelledby="h-cardapio">
+      <div class="menu-head">
+        <h2 id="h-cardapio" class="head" data-split>Cardápio e horários</h2>
+        <p class="lead" data-rise>Duas partidas por dia, uma mesma cozinha: o almoço farto de todos os dias e o jantar servido à mesa.</p>
+      </div>
+
+      <div class="tickets">
+        <article class="pass" data-rise data-service="almoco">
+          <figure class="pass-pic"><img src="assets/buffet.jpg" width="828" height="1103" loading="lazy" alt="Buffet do almoço com alcatra suína, carne acebolada, frango empanado, batatas e legumes"></figure>
+          <div class="pass-body">
+            <h3 class="pass-title">Almoço <span>Self-service</span></h3>
+            <dl class="pass-facts">
+              <div><dt>Quando</dt><dd>Todos os dias</dd></div>
+              <div><dt>Horário</dt><dd>11h30 às 15h</dd></div>
+            </dl>
+            <p>Carnes, frango, massas, saladas e acompanhamentos caseiros, à vontade, para servir do seu jeito.</p>
+          </div>
+        </article>
+        <article class="pass pass-dark" data-rise data-service="jantar">
+          <figure class="pass-pic"><img src="assets/salao-noite.jpg" width="828" height="1028" loading="lazy" alt="Salão do Maria Fumaça à noite, visto do alto, com mesas postas e luzes acesas"></figure>
+          <div class="pass-body">
+            <h3 class="pass-title">Jantar <span>À la carte</span></h3>
+            <dl class="pass-facts">
+              <div><dt>Quando</dt><dd>Terça a domingo</dd></div>
+              <div><dt>Horário</dt><dd>17h às 23h</dd></div>
+            </dl>
+            <p>Pratos preparados na hora e servidos à mesa, num salão mais tranquilo para a noite.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="board" data-rise>
+        <table class="timetable">
+          <caption>Quadro de horários da semana</caption>
+          <thead><tr><th scope="col">Dia</th><th scope="col">Almoço</th><th scope="col">Jantar</th></tr></thead>
+          <tbody>
+            <tr data-day="1"><th scope="row">Segunda</th><td>11h30–15h</td><td class="off">Fechado</td></tr>
+            <tr data-day="2"><th scope="row">Terça</th><td>11h30–15h</td><td>17h–23h</td></tr>
+            <tr data-day="3"><th scope="row">Quarta</th><td>11h30–15h</td><td>17h–23h</td></tr>
+            <tr data-day="4"><th scope="row">Quinta</th><td>11h30–15h</td><td>17h–23h</td></tr>
+            <tr data-day="5"><th scope="row">Sexta</th><td>11h30–15h</td><td>17h–23h</td></tr>
+            <tr data-day="6"><th scope="row">Sábado</th><td>11h30–15h</td><td>17h–23h</td></tr>
+            <tr data-day="0"><th scope="row">Domingo</th><td>11h30–15h</td><td>17h–23h</td></tr>
+          </tbody>
+        </table>
+        <div class="board-cta">
+          <p>Pratos do dia, opções à la carte e valores atualizados direto com a casa.</p>
+          <a class="btn btn-cream" href="https://wa.me/5524981408080?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20o%20card%C3%A1pio." target="_blank" rel="noopener">Consulte nosso cardápio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="gallery" id="galeria" aria-labelledby="h-galeria">
+      <h2 id="h-galeria" class="head" data-split>Por dentro e ao redor</h2>
+      <ul class="tiles">
+        <li class="tile" data-tile><img src="assets/pudim.jpg" width="828" height="1040" loading="lazy" alt="Fatia de pudim em prato de barro sobre mesa de madeira, junto à janela"><p class="tag"><span>Sobremesa</span><span>Pudim da casa</span></p></li>
+        <li class="tile" data-tile><img src="assets/salao.jpg" width="828" height="906" loading="lazy" alt="Mesas de madeira com cadeiras de assento bordô e luminárias pendentes"><p class="tag"><span>Salão</span><span>Mesa posta</span></p></li>
+        <li class="tile" data-tile><img src="assets/trem-miguel-pereira.jpg" width="1280" height="720" loading="lazy" alt="Locomotiva a vapor número 250 parada na estação de Miguel Pereira"><p class="tag"><span>Miguel Pereira</span><span>A locomotiva 250</span></p></li>
+        <li class="tile" data-tile><img src="assets/buffet.jpg" width="828" height="1103" loading="lazy" alt="Travessas do buffet com carnes, frango e acompanhamentos"><p class="tag"><span>Almoço</span><span>O buffet do dia</span></p></li>
+        <li class="tile" data-tile><img src="assets/fachada.jpg" width="828" height="1013" loading="lazy" alt="Clientes almoçando nas mesas da calçada, em frente à placa do restaurante"><p class="tag"><span>Experiência</span><span>Mesas na calçada</span></p></li>
+        <li class="tile" data-tile><img src="assets/miguel-pereira.jpg" width="1280" height="960" loading="lazy" alt="Lago de Javary em Miguel Pereira, com pedalinhos de cisne"><p class="tag"><span>Miguel Pereira</span><span>Lago de Javary</span></p></li>
+        <li class="tile" data-tile><img src="assets/salao-noite.jpg" width="828" height="1028" loading="lazy" alt="Salão visto do mezanino, com luminária de madeira e mesas postas"><p class="tag"><span>Ambiente</span><span>O salão à noite</span></p></li>
+        <li class="tile" data-tile><img src="assets/praca-miguel-pereira.webp" width="1600" height="900" loading="lazy" alt="Praça do centro de Miguel Pereira com chafariz, o letreiro Eu amo Miguel Pereira e a igreja ao fundo"><p class="tag"><span>Miguel Pereira</span><span>A praça do centro</span></p></li>
+      </ul>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section class="proof" id="avaliacoes" aria-labelledby="h-avaliacoes">
+      <div class="card" data-card>
+        <img class="card-logo" src="assets/logo.png" width="400" height="400" loading="lazy" alt="Logotipo do Maria Fumaça Restaurante">
+        <h2 id="h-avaliacoes" class="card-head">Quem conhece, recomenda.</h2>
+        <p class="score"><span class="score-num" data-count="4.3">4,3</span><span class="visually-hidden"> de 5 estrelas</span></p>
+        <p class="stars" aria-hidden="true">
+          <svg viewBox="0 0 120 24" width="240" height="48"><defs><clipPath id="clip43"><rect x="0" y="0" width="103" height="24"/></clipPath><path id="st" d="M12 1.5l3.1 6.6 7.2.9-5.3 5 1.4 7.1L12 17.6 5.6 21.1 7 14l-5.3-5 7.2-.9z"/></defs>
+            <g class="stars-off"><use href="#st"/><use href="#st" x="24"/><use href="#st" x="48"/><use href="#st" x="72"/><use href="#st" x="96"/></g>
+            <g class="stars-on" clip-path="url(#clip43)"><use href="#st"/><use href="#st" x="24"/><use href="#st" x="48"/><use href="#st" x="72"/><use href="#st" x="96"/></g>
+          </svg>
+        </p>
+        <p class="score-note">Mais de <strong data-count="2300">2.300</strong> avaliações no Google</p>
+        <a class="btn btn-solid" href="https://www.google.com/maps/search/?api=1&amp;query=Maria+Fuma%C3%A7a+Restaurante+Miguel+Pereira+RJ" target="_blank" rel="noopener">Ver avaliações no Google</a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact" id="contato" aria-labelledby="h-contato">
+      <div class="coupon" data-rise>
+        <div class="coupon-info">
+          <h2 id="h-contato" class="head">Localização e contato</h2>
+          <address>
+            <p class="c-name">Maria Fumaça Restaurante</p>
+            <p>Rua Maria José, 36 — Vila Margarida<br>Miguel Pereira — RJ</p>
+            <p>Referência: Calçadão do Viô</p>
+            <p><a href="https://wa.me/5524981408080" target="_blank" rel="noopener">WhatsApp (24) 98140-8080</a><br><a href="https://www.instagram.com/mariafumacarestaurantemp/" target="_blank" rel="noopener">@mariafumacarestaurantemp</a></p>
+          </address>
+          <div class="actions">
+            <a class="btn btn-cream" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua+Maria+Jos%C3%A9+36+Vila+Margarida+Miguel+Pereira+RJ" target="_blank" rel="noopener">Como chegar</a>
+            <a class="btn btn-solid btn-on-dark" href="https://wa.me/5524981408080?text=Ol%C3%A1!" target="_blank" rel="noopener">Conversar pelo WhatsApp</a>
+            <a class="btn btn-outline" href="https://www.instagram.com/mariafumacarestaurantemp/" target="_blank" rel="noopener">Seguir no Instagram</a>
+          </div>
+        </div>
+        <div class="coupon-map">
+          <iframe title="Mapa: Maria Fumaça Restaurante, Rua Maria José, 36, Miguel Pereira" src="https://www.google.com/maps?q=Rua+Maria+Jos%C3%A9+36,+Vila+Margarida,+Miguel+Pereira+-+RJ&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="postcard" data-rise>
+      <div class="pc-left">
+        <p class="pc-name">Maria Fumaça</p>
+        <p class="pc-msg">Até a próxima parada.</p>
+        <dl class="pc-hours">
+          <div><dt>Almoço self-service</dt><dd>Todos os dias, 11h30 às 15h</dd></div>
+          <div><dt>Jantar à la carte</dt><dd>Terça a domingo, 17h às 23h</dd></div>
+        </dl>
+      </div>
+      <div class="pc-right">
+        <figure class="stamp"><img src="assets/logo.png" width="400" height="400" loading="lazy" alt="Selo do Maria Fumaça Restaurante"></figure>
+        <ul class="pc-lines">
+          <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua+Maria+Jos%C3%A9+36+Vila+Margarida+Miguel+Pereira+RJ" target="_blank" rel="noopener">Rua Maria José, 36 — Vila Margarida</a></li>
+          <li>Miguel Pereira — RJ · Calçadão do Viô</li>
+          <li><a href="https://wa.me/5524981408080" target="_blank" rel="noopener">WhatsApp (24) 98140-8080</a></li>
+          <li><a href="https://www.instagram.com/mariafumacarestaurantemp/" target="_blank" rel="noopener">Instagram @mariafumacarestaurantemp</a></li>
+        </ul>
+      </div>
+      <p class="imprint">© <span data-year>2026</span> Maria Fumaça Restaurante. Todos os direitos reservados.</p>
+    </div>
+    <p class="credits">Fotos de Miguel Pereira: <a href="https://commons.wikimedia.org/wiki/File:Trem_Miguel_Pereira.jpg">“Trem Miguel Pereira”</a>, Daddo Moreira / Trilhos do Rio, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>; <a href="https://commons.wikimedia.org/w/index.php?curid=9963317">“Miguel pereira”</a>, Lagape, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>; via Wikimedia Commons.</p>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/5524981408080?text=Ol%C3%A1!" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.6 4.9 2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
